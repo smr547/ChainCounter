@@ -15,6 +15,14 @@ Develop a chain counter for a boat. The chain counter should be fully integrated
 
 The Chain counter should be engineered using Open Source software and hardware to keep costs down and allow it to be easily integrated with other on-board systems.
 
+# Parameters reported
+
+* ``navigation.anchor.chainOut`` -- length of chain out
+* ``navigation.anchor.chainPercent`` -- chain out as a percentage of chain available
+* ``navigation.anchor.gypsyCircumference`` -- circumference of gypsy *
+* ``navigation.anchor.chainLength`` -- length of chain installed *
+
+
 ## Hardware Design
 See the [hardware directory](./hardware) for further information. 
 We are using [KiCad]([Ihttps://www.kicad.org/) for hardware design. See the [Schematic of current version](./hardware/KiCad/schematic_current_version.pdf).
