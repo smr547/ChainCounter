@@ -3,7 +3,7 @@ Develop a chain counter for a boat. The chain counter should be fully integrated
 
 * Bright display at helm
 * Display:
-  *length of chain out,
+  * length of chain out,
   * % of total length out,
   * current scope (chainOut/depth),
   * gypsy status (idle, up, down, freefall, bound and fault condition)
