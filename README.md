@@ -15,12 +15,25 @@ Develop a chain counter for a boat. The chain counter should be fully integrated
 
 The Chain counter should be engineered using Open Source software and hardware to keep costs down and allow it to be easily integrated with other on-board systems.
 
-# Parameters reported
+## Parameters reported
 
 * ``navigation.anchor.chainOut`` -- length of chain out
 * ``navigation.anchor.chainPercent`` -- chain out as a percentage of chain available
+* ``navigation.anchor.gypsyStatus`` -- idle, up, down, freefall, bound, fault(code)
+* ``navigation.anchor.deploymentStatus`` -- home, hanging, inWater, onBottom or unknown (depth data unavailable)
+* ``navigation.anchor.bottomPosition`` -- lat/long of anchor on bottom (if depth and GPS data unavailable)
+* ``navigation.anchor.scopeOut`` -- chain out as a factor of depth (if depth data unavailable)
 * ``navigation.anchor.gypsyCircumference`` -- circumference of gypsy *
 * ``navigation.anchor.chainLength`` -- length of chain installed *
+
+(* indicates parameter configurable via web page or RESTful interface)
+
+## Events reported
+
+* chain stopped / moving
+* chain on bottom
+* chain weighed (off bottom)
+* chain home
 
 
 ## Hardware Design
