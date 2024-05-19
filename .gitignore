@@ -4,6 +4,3 @@
 .vscode/launch.json
 .vscode/ipch
 *.lck
-*.cpp
-*.hpp
-.ChainCounter
