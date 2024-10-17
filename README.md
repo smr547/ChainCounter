@@ -7,9 +7,25 @@ Develop a chain counter for a boat. The chain counter should be fully integrated
   * % of total length out,
   * current scope (chainOut/depth),
   * gypsy status (idle, up, down, freefall, bound and fault condition)
-* Remote control of windlass
+* Anchor location: Home, dangling, dropping, lifting, free falling, on bottom, set
+* Anchor last known position (latitude, longitude and depth -- in case the anchor and chain are lost)
 * Automatic anchor watch activation and cancellation
-* Alarms and warnings (end of chain, insufficient scope, bound gypsy)
+* Notifications
+** Deploying anchor
+** Anchor on bottom
+** Anchor holding
+** Lifting anchor
+** Anchor weighed
+** Anchor homed
+* Voice notification and warnings
+* Alarms and warnings:
+** end of chain,
+** insufficient scope,
+** bound gypsy,
+** anchor dragging,
+** boat left anchor zone
+* All information available remotely (web page and mobile app)
+* Remote control of windlass (up / down buttons)
 * Parameters configurable via web page (gypsy circumference, chain length, alarm limits, anchor watch safety factor)
 * Integration via open RESTful interface
 
