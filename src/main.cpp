@@ -22,7 +22,7 @@
 #include "sensesp_app_builder.h"
 
 using namespace sensesp;
-
+#define DEVICE_NAME "Chain_Counter1"
 // void setupGypsyParameter();
 
 reactesp::ReactESP app;
@@ -146,7 +146,7 @@ void setup() {
   // recover previous stored chainCount (just in case the chain counter was
   // powered off with chain out)
 
-  preferences.begin("ChainCounter", false);
+  preferences.begin(DEVICE_NAME, false);
   chainCount = preferences.getInt("counter", 0);
   lastChainCount = chainCount;
 
