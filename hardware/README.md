@@ -12,7 +12,7 @@ The old chain counter is a Qwick CHC 1202M ([see Manual](./quick_1202M_manual.pd
 
 # Test bed
 
-![windlass_emulator.jpg](./windlass_emulator.jpg)
+![windlass_emulator.jpg](windlass_emulator.jpeg)
 
 A benchtop test bed has been built it comprises
 
